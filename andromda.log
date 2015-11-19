@@ -1,0 +1,52 @@
+2015-11-11 17:57:55,668 INFO  [AndroMDA] - discovering namespaces -
+2015-11-11 17:57:55,774 INFO  [AndroMDA] found namespace --> 'emf-uml22'
+2015-11-11 17:57:55,774 INFO  [AndroMDA]   +  registering component 'repository'
+2015-11-11 17:57:55,825 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-11-11 17:57:55,955 INFO  [AndroMDA]   +  registering component 'profile'
+2015-11-11 17:57:55,974 INFO  [AndroMDA] found namespace --> 'meta'
+2015-11-11 17:57:55,975 INFO  [AndroMDA]   +  registering component 'cartridge'
+2015-11-11 17:57:56,004 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-11-11 17:57:56,017 INFO  [AndroMDA]   +  registering component 'profile'
+2015-11-11 17:57:56,021 INFO  [AndroMDA] found namespace --> 'netBeansMDR'
+2015-11-11 17:57:56,022 INFO  [AndroMDA]   +  registering component 'repository'
+2015-11-11 17:57:56,077 INFO  [AndroMDA] found namespace --> 'uml-1.4'
+2015-11-11 17:57:56,078 INFO  [AndroMDA]   +  registering component 'metafacades'
+2015-11-11 17:57:56,185 INFO  [AndroMDA]   +  registering component 'profile'
+2015-11-11 17:57:56,206 INFO  [AndroMDA] found namespace --> 'validation'
+2015-11-11 17:57:56,207 INFO  [AndroMDA]   +  registering component 'translation-library'
+2015-11-11 17:57:57,655 INFO  [AndroMDA] - core initialization complete: 2.238[s] -
+2015-11-11 17:57:57,685 INFO  [AndroMDA] loading model --> 'jar:file:F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/src/uml/WebServiceMetafacadeModel.xml.zip!/WebServiceMetafacadeModel.xml'
+2015-11-11 17:57:58,368 INFO  [AndroMDA] referenced model --> 'jar:file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/../../metafacades/uml/common/src/main/uml/andromda-metafacades-uml.xml.zip!/andromda-metafacades-uml.xml'
+2015-11-11 17:57:58,375 INFO  [AndroMDA] referenced model --> 'jar:file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/../../profiles/uml-1.4/meta/src/main/uml/andromda-profile-meta.xml.zip!/andromda-profile-meta.xml'
+2015-11-11 17:57:58,377 INFO  [AndroMDA] referenced model --> 'jar:file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/../../profiles/uml-1.4/datatype/src/main/uml/andromda-profile-datatype.xml.zip!/andromda-profile-datatype.xml'
+2015-11-11 17:57:58,663 INFO  [AndroMDA] referenced model --> 'jar:file:C:/Users/ayman/.m2/repository/org/omg/profiles/uml14/UML_Standard_Profile/1.0.1/UML_Standard_Profile-1.0.1.jar!/UML_Standard_Profile.xml'
+2015-11-11 17:57:58,729 INFO  [AndroMDA] referenced model --> 'jar:file:C:/Users/ayman/.m2/repository/org/omg/profiles/uml14/UML_Standard_Profile/1.0.1/UML_Standard_Profile-1.0.1.jar!/MagicDraw_Profile.xml'
+2015-11-11 17:57:58,805 INFO  [AndroMDA] - loading complete: 1.145[s] -
+2015-11-11 17:57:58,805 INFO  [AndroMDA] - validating model -
+2015-11-11 17:58:00,396 INFO  [AndroMDA] - validation complete: 1.591[s] -
+2015-11-11 17:58:00,465 INFO  [AndroMDA] Processing cartridge meta on model file:F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/src/uml/WebServiceMetafacadeModel.xml.zip!/WebServiceMetafacadeModel.xml
+2015-11-11 17:58:00,472 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/meta/MetafacadeLogic.vsl with 9 metafacades from 1 model elements
+2015-11-11 17:58:00,830 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLTypeLogic.java'
+2015-11-11 17:58:01,071 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServiceLogic.java'
+2015-11-11 17:58:01,170 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServiceParameterLogic.java'
+2015-11-11 17:58:01,368 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServiceOperationLogic.java'
+2015-11-11 17:58:01,429 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLTypeAssociationEndLogic.java'
+2015-11-11 17:58:01,531 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLTypeAttributeLogic.java'
+2015-11-11 17:58:01,681 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLEnumerationTypeLogic.java'
+2015-11-11 17:58:01,776 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServicePackageLogic.java'
+2015-11-11 17:58:01,785 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/OublFacadeClientOperationLogic.java'
+2015-11-11 17:58:01,796 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/meta/MetafacadeLogicImpl.vsl with 9 metafacades from 1 model elements
+2015-11-11 17:58:01,882 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/src/main/java/org/andromda/cartridges/webservice/metafacades/OublFacadeClientOperationLogicImpl.java'
+2015-11-11 17:58:01,897 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/meta/Metafacade.vsl with 9 metafacades from 1 model elements
+2015-11-11 17:58:01,909 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLType.java'
+2015-11-11 17:58:01,935 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebService.java'
+2015-11-11 17:58:01,943 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServiceParameter.java'
+2015-11-11 17:58:01,959 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServiceOperation.java'
+2015-11-11 17:58:01,967 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLTypeAssociationEnd.java'
+2015-11-11 17:58:01,979 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLTypeAttribute.java'
+2015-11-11 17:58:01,990 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WSDLEnumerationType.java'
+2015-11-11 17:58:02,000 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/WebServicePackage.java'
+2015-11-11 17:58:02,008 INFO  [AndroMDA:meta] Output: 'file:/F:/vodafone/V3_4_SNAPSHOT_FINAL/cartridges/andromda-webservice/target/src/org/andromda/cartridges/webservice/metafacades/OublFacadeClientOperation.java'
+2015-11-11 17:58:02,023 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/meta/PSMmetaclass.vsl with 0 metafacades from 1 model elements
+2015-11-11 17:58:02,038 INFO  [org.andromda.core.cartridge.Cartridge] Processing templates/meta/PSMmetaclassImpl.vsl with 0 metafacades from 1 model elements
+2015-11-11 17:58:02,043 INFO  [AndroMDA] completed model processing --> TIME: 4.387[s], RESOURCES WRITTEN: 19
